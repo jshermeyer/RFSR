@@ -1,0 +1,10 @@
+#Requirements
+gdal
+numpy>=1.13.3
+scipy
+scikit-learn
+opencv-python
+tqdm
+jupyter
+ipywidgets
+IPython
