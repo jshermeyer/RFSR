@@ -1,5 +1,7 @@
 # Random Forest Super-Resolution (RFSR)
-![Alt text](/Examples/RFSR/Plane/60cm_Native.png | width=250) ![Alt text](/Examples/RFSR/Plane/30cm_2x_RFSR.png | width=250)
+| 60cm Input | 30cm SR Output |
+| --- | --- |
+|<img src="/Examples/RFSR/Plane/60cm_Native.png" alt="30cm_Native" width="400"/>|<img src="/Examples/RFSR/Plane/30cm_2x_RFSR.png" alt="15cm_SR" width="400"/>|
 
 RFSR is an adaptation and major twist on other random-forest super-resolution techniques such as SRRF by [Schulter et al.](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schulter_Fast_and_Accurate_2015_CVPR_paper.pdf)  Our method uses a random forest regressor with a few simple standard parameters.  All parameters were finely tweaked using empirical testing to maximize PSNR scores while maintaining minimal training time (4 hours or less per level of enhancement using 200 million pixels on a 64GB RAM CPU).  The technique is trained only using the luminance component from a YCbCr converted image.
 
@@ -36,3 +38,22 @@ Feel free to modify the code, work with new data, and try to improve your perfor
 Check out our 8-bit conversion code. -TBA
 [SpaceNet Utilities](https://github.com/SpaceNetChallenge/utilities) is a recommended toolkit for working with geospatial data and deep learning
 [Very Deep Super Resolution (VDSR) 4 Geospatial (VDSR4GEO)](github.com/jshermeyer/VDSR4Geo) is a partner repository and also used in the the arXiv paper listed above.
+
+
+### 4. Example Outputs
+
+| 120cm Input | 30cm SR Output |
+| --- | --- |
+|<img src="/Examples/RFSR/Plane/120cm_Native.png" alt="60cm_Native" width="400"/>|<img src="/Examples/RFSR/Plane/30cm_4x_RFSR.png" alt="30cm_Native" width="400"/>|
+
+| 30cm Input | 15cm SR Output |
+| --- | --- |
+|<img src="/Examples/RFSR/Plane/30cm_Native.png" alt="30cm_Native" width="400"/>|<img src="/Examples/RFSR/Plane/15cm_2x_RFSR.png" alt="15cm_SR" width="400"/>|
+
+| 60cm Input | 30cm SR Output |
+| --- | --- |
+|<img src="/Examples/RFSR/Cars/60cm_Native.png" alt="60cm_Native" width="400"/>|<img src="/Examples/RFSR/Cars/30cm_RFSR_2x.png" alt="30cm_Native" width="400"/>|
+
+| 30cm Input | 15cm SR Output |
+| --- | --- |
+|<img src="/Examples/RFSR/Cars/30cm_Native.png" alt="30cm_Native" width="400"/>|<img src="/Examples/RFSR/Cars/15cm_RFSR_2x.png" alt="30cm_Native" width="400"/>|
