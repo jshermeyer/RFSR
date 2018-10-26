@@ -25,7 +25,7 @@ Python 2.7+, GDAL, scikit-learn, scipy, numpy, opencv, and Jupyter Notebooks are
     pip install -r Requirements.txt
     
 ### 1. Train, Test, and Infer
-Simply launch a jupyter notebook instance and open the notebook.  Follow the instructions cell by cell and initialize all functions.  RFSR features the ability to train new models, test performance on various datasets, and run inference to enhance coarser imagery based on a set user scale. Sample data from the [xView dataset](https://arxiv.org/abs/1802.07856) is provided, sample models are also provided.
+Simply launch a jupyter notebook instance and open the notebook.  Follow the instructions cell by cell and initialize all functions.  RFSR features the ability to train new models, test performance on various datasets, and run inference to enhance coarser imagery based on a set user scale. Sample data from the [xView dataset](https://arxiv.org/abs/1802.07856) is provided.
 
 ### 2. Expand
 Feel free to modify the code, work with new data, and try to improve your performance.
