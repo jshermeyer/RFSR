@@ -1,5 +1,5 @@
 # RFSR
-Random Forest Super Resolution (RFSR)
+Random Forest Super-Resolution (RFSR)
 
 RFSR is an adaptation of other random-forest super-resolution techniques such as SRRF by [Schulter et al.](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schulter_Fast_and_Accurate_2015_CVPR_paper.pdf)  Our method uses a random forest regressor with a few simple standard parameters.  All parameters were finely tweaked using empirical testing to maximize PSNR scores while maintaining minimal training time (4 hours or less per level of enhancement using 200 million pixels on a 64GB RAM CPU).  The technique is trained only using the luminance component from a YCbCr converted image.
 
@@ -26,7 +26,13 @@ Python 2.7+, GDAL, scikit-learn, scipy, numpy, opencv, and Jupyter Notebooks are
     pip install -r Requirements.txt
     
 ### 1. Train, Test, and Infer
-Simply launch a jupyter notebook instance and open the notebook.  Follow the instructions cell by cell by first initializing all functions.  Features the ability to train new models, test performance on various datasets, and run inference to enhance coarser imagery based on a set user scale. Sample data from the [xView dataset](https://arxiv.org/abs/1802.07856) is provided, sample models are also provided.
+Simply launch a jupyter notebook instance and open the notebook.  Follow the instructions cell by cell and initialize all functions.  RFSR features the ability to train new models, test performance on various datasets, and run inference to enhance coarser imagery based on a set user scale. Sample data from the [xView dataset](https://arxiv.org/abs/1802.07856) is provided, sample models are also provided.
 
 ### 2. Expand
 Feel free to modify the code, work with new data, and try to improve your performance.
+
+### 3. Other Resources
+
+Check out our 8-bit conversion code. -TBA
+[SpaceNet Utilities](https://github.com/SpaceNetChallenge/utilities) is a recommended toolkit for working with geospatial data and deep learning
+[Very Deep Super Resolution (VDSR) 4 Geospatial (VDSR4GEO)](github.com/jshermeyer/VDSR4Geo) is a partner repository and also used in the the arXiv paper listed above.
