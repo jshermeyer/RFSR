@@ -1,5 +1,5 @@
 # Random Forest Super-Resolution (RFSR)
-![Alt text](/Examples/RFSR/Plane/60cm_Native.png?raw=true "Figure 1")
+![Alt text](/Examples/RFSR/Plane/60cm_Native.png?raw=true "Figure 1")![Alt text](/Examples/RFSR/Plane/30cm_2x_RFSR.png?raw=true "Figure 1")
 
 RFSR is an adaptation and major twist on other random-forest super-resolution techniques such as SRRF by [Schulter et al.](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schulter_Fast_and_Accurate_2015_CVPR_paper.pdf)  Our method uses a random forest regressor with a few simple standard parameters.  All parameters were finely tweaked using empirical testing to maximize PSNR scores while maintaining minimal training time (4 hours or less per level of enhancement using 200 million pixels on a 64GB RAM CPU).  The technique is trained only using the luminance component from a YCbCr converted image.
 
