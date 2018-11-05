@@ -35,7 +35,7 @@ Feel free to modify the code, work with new data, and try to improve your perfor
 
 ### 3. Other Resources
 
-Check out our 8-bit conversion code. -TBA
+Check out our 8-bit conversion code: https://github.com/jshermeyer/SR_Utils
 [SpaceNet Utilities](https://github.com/SpaceNetChallenge/utilities) is a recommended toolkit for working with geospatial data and deep learning
 [Very Deep Super Resolution (VDSR) 4 Geospatial (VDSR4GEO)](https://github.com/jshermeyer/VDSR4Geo) is a partner repository and also used in the the arXiv paper listed above.
 
