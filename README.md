@@ -11,9 +11,9 @@ After the LR image stack and corresponding HR images are created they are random
 
 
 ### For more information, see:
-1. Initial blog on Super-Resolution: TBA November 2019
+Initial blog on Super-Resolution: [Blog](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-1a-2f1e962e99dd)
 
-2. arXiv paper: TBA November 2019
+arXiv paper: [Shermeyer & Van Etten, 2018](https://arxiv.org/abs/1812.04098)
 
 
 ____
